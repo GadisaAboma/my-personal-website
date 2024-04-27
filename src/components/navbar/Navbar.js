@@ -45,9 +45,13 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I'm Passionate and innovative Full Stack Software Engineer
+                  with a strong proficiency in mobile and web application
+                  development. Expert in Flutter, Reactjs, Nodejs, Nestjs, I
+                  specialize in crafting dynamic, user-centric solutions that
+                  enhance engagement and functionality. Dedicated to embracing
+                  cutting-edge technologies, I strive to deliver efficient and
+                  scalable software products that meet diverse client``.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
