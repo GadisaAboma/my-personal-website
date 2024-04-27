@@ -1,18 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo} alt="logo" />
-      </div>
+    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-end items-center font-titleFont border-b-[1px] border-b-gray-600">
+      {/* <div>
+        <img height={50} width={50} src={logo} alt="logo" />
+      </div> */}
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
@@ -76,13 +76,20 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <FaFacebookF />
+                    <a
+                      target="_BLANK"
+                      href="https://www.linkedin.com/in/gadisa-aboma-5b7934192/"
+                    >
+                      <FaLinkedinIn />
+                    </a>
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
+                    <a
+                      target="_BLANK"
+                      href="https://www.facebook.com/gadisa.aboma.7/"
+                    >
+                      <FaFacebookF />
+                    </a>{" "}
                   </span>
                 </div>
               </div>
@@ -98,6 +105,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
