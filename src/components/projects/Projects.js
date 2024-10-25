@@ -1,6 +1,13 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { gojo, cooklikeme, kabba, edl, gojoDating, linq } from "../../assets/index";
+import {
+  gojo,
+  cooklikeme,
+  kabba,
+  edl,
+  gojoDating,
+  linq,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -17,28 +24,33 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
+          url="https://play.google.com/store/apps/details?id=com.vintechplc.mymatch&hl=en"
           title="Gojo Ethiopian Dating App"
           des=" Gojo is a streamlined dating app designed to help users find romantic partners effectively. Featuring an intuitive swipe mechanism, users can quickly express interest and engage with compatible matches. With robust messaging, Gojo ensures safe and meaningful interactions, making it easier to find love or friendship."
           src={gojo}
         />
         <ProjectsCard
           title="LinQ Driver"
+          url="https://play.google.com/store/apps/details?id=co.linqsolutions.driver&hl=en"
           des=" As a school bus driver, drivers job is all about getting students to and from school safely and on time.
  The LinQSolutions Driver App is designed to make drivers daily routes and responsibilities easier to manage, so they can focus on the task at their hand - safely transporting students"
           src={linq}
         />
         <ProjectsCard
           title="Cook Like Me"
+          url="https://play.google.com/store/apps/details?id=com.elevatingfreely.cooklikeme&hl=en"
           des=" CookLikeMe brings the excitement of culinary creation to your smartphone. Modeled after the dynamic, short-form video approach of TikTok, this app allows users to share and discover quick cooking videos that inspire kitchen creativity. Whether you're a novice or a seasoned chef, CookLikeMe connects you with easy-to-follow recipes and cooking tips, making delicious dining an accessible adventure for everyone"
           src={cooklikeme}
         />
         <ProjectsCard
           title="Kabba Driver App"
+          url="https://play.google.com/store/apps/details?id=com.vintechplc.kabba.driver&hl=en"
           des=" 
           Kabba is a platform providing accessible transportation via bus pooling for various users. I developed its driver app, featuring authentication, Google Maps routing, route preference, live location tracking, and trip management."
           src={kabba}
         />
         <ProjectsCard
+          url="https://ethiodeliverylogistics.com/"
           title="Ethio Delivery Logistics Dashboard"
           des=" Ethio Delivery Logistics admin  Dashboard offers streamlined management of ride-sharing operations. It features real-time tracking of rides and driver activity, tools for fare management, and analytics for optimizing service efficiency. This dashboard ensures smooth operations, enhancing service reliability for both drivers and riders."
           src={edl}
@@ -49,11 +61,11 @@ const Projects = () => {
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={gojo}
         /> */}
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Gojo Dashboard"
           des=" The Gojo Admin Dashboard is an essential tool for managing the Gojo dating app. It offers real-time insights and key metrics, facilitating user management, system monitoring, and marketing initiatives. With features for tracking user engagement and performance analytics, the dashboard enhances operational efficiency and ensures a secure, enjoyable dating experience for all users!"
           src={gojoDating}
-        />
+        /> */}
       </div>
     </section>
   );
