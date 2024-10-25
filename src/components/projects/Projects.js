@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { gojo, cooklikeme, kabba, edl, gojoDating } from "../../assets/index";
+import { gojo, cooklikeme, kabba, edl, gojoDating, linq } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -20,6 +20,12 @@ const Projects = () => {
           title="Gojo Ethiopian Dating App"
           des=" Gojo is a streamlined dating app designed to help users find romantic partners effectively. Featuring an intuitive swipe mechanism, users can quickly express interest and engage with compatible matches. With robust messaging, Gojo ensures safe and meaningful interactions, making it easier to find love or friendship."
           src={gojo}
+        />
+        <ProjectsCard
+          title="LinQ Driver"
+          des=" As a school bus driver, drivers job is all about getting students to and from school safely and on time.
+ The LinQSolutions Driver App is designed to make drivers daily routes and responsibilities easier to manage, so they can focus on the task at their hand - safely transporting students"
+          src={linq}
         />
         <ProjectsCard
           title="Cook Like Me"

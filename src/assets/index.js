@@ -1,5 +1,5 @@
 import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
+import bannerImg from "./images/new-banner.jpg";
 import gojo from "./images/projects/Gojo.jpg";
 import cooklikeme from "./images/projects/cooklikeme.jpg";
 import kabba from "./images/projects/Kabba.jpg";
@@ -10,6 +10,7 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import testimonial from "./images/testmonial/testimonial.jpg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import linq from "./images/projects/linq.png";
 
 export {
   logo,
@@ -24,4 +25,5 @@ export {
   testimonial,
   quote,
   contactImg,
+  linq,
 };
