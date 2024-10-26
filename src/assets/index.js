@@ -1,5 +1,5 @@
 import logo from "./images/logo.png";
-import bannerImg from "./images/new-banner.jpg";
+import bannerImg from "./images/banner-image.jpg";
 import gojo from "./images/projects/Gojo.jpg";
 import cooklikeme from "./images/projects/cooklikeme.jpg";
 import kabba from "./images/projects/Kabba.jpg";
