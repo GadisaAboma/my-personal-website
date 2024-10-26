@@ -25,8 +25,8 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           url="https://play.google.com/store/apps/details?id=com.vintechplc.mymatch&hl=en"
-          title="Gojo Ethiopian Dating App"
-          des=" Gojo is a streamlined dating app designed to help users find romantic partners effectively. Featuring an intuitive swipe mechanism, users can quickly express interest and engage with compatible matches. With robust messaging, Gojo ensures safe and meaningful interactions, making it easier to find love or friendship."
+          title="Maraki Ethiopian Dating App"
+          des=" Maraki is a streamlined dating app designed to help users find romantic partners effectively. Featuring an intuitive swipe mechanism, users can quickly express interest and engage with compatible matches. With robust messaging, maraki ensures safe and meaningful interactions, making it easier to find love or friendship."
           src={gojo}
         />
         <ProjectsCard
